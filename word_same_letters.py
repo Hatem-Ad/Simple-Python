@@ -1,3 +1,5 @@
+import os 
+
 ch1=input("Donner ch1 :")
 ch2=input("Donner ch2 :")
 
@@ -25,3 +27,5 @@ if ((found==t1) or (found==t2)):
 	print("Les deux mots ont les même lettres. ")
 else:
 	print("Les deux mots n'ont pas des même lettres. ")
+
+os.system("pause")
